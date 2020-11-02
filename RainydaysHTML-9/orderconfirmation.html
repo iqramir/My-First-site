@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Rainydays</title>
+	<meta name="description" content="Rainydays Autumn Store"/>	
+	<!-- Custom Style   -->
+    <link rel="stylesheet" href="style.css?v=1.2">	
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- ----------------------------  Header ---------------------------------------------- -->
+
+     <div class="back">
+     <div class="search_bar">
+      <form id="search_form">
+          <input type="text" id="input_box" class="form-control" placeholder="  Search" name="search" autocomplete="off" />
+      </form>
+    </div>
+   <div class="topnav" id="myTopnav">
+    <div style="margin-bottom:1%; margin-top:1%">
+   <b>
+
+    <img class="img1" src="images/RainyDays_Logo.png" alt="app logo" href="index.html">
+				  
+       
+		 	 
+	     <a style="font-weight:500; color:#ffffff;" href="sale.html">OUTLET</a>
+		 <a style="font-weight:500; color:#ffffff;"  href="womencollection.html">WOMEN</a>	
+		 <a style="font-weight:500; color:#ffffff;" href="menscollection.html">MEN</a>
+		 
+		 
+		
+        
+         <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+	</b>
+    </div>
+   </div>
+  </div>
+
+  <script>
+  function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+     x.className = "topnav";
+    }
+  }
+  </script>
+
+    <!-- ------------x---------------  Header --------------------------x------------------- -->
+	
+
+    <!----------------------------- Main Site Section ------------------------------>
+    <div class="main-image">
+	      <img src="images/background.jpg">
+		  <div class="details">
+		        <h1>ORDER CONFIRMED</h1>
+                <h5>You will receive order details in Email</h5>
+                <button class="btn"  onclick="window.location.href='index.html'">BACK TO  HOME</button>
+		  </div>
+	</div>
+	
+	
+	<!-------------x--------------- Main Site Section --------------x--------------->
+	
+	
+	
+	
+	<!----------------------------- Footer ------------------------------>
+	
+	<div class="footer">
+
+       <div>
+		<ul>
+			<li  onclick="window.location.href='index.html'">
+			   Home 
+			</li>
+			<li onclick="window.location.href='aboutus.html'">
+			   About  
+			</li>
+			<li onclick="window.location.href='contact.html'">
+			  Contact Us
+			</li>
+	  </ul>
+		</div>
+	  <div class="follow">
+	   Follow Us
+	   <div>
+	   <i class="fa fa-facebook-square" aria-hidden="true"></i>
+	   <i class="fa fa-twitter-square" aria-hidden="true"></i>
+	   <i class="fa fa-instagram" aria-hidden="true"></i>
+
+	   </div>
+	  </div>
+   </div>
+	
+	<!--------------x-------------- Footer ------------x----------------->
+	
+	
+</body>
+
+</html>
